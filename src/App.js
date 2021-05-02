@@ -4,7 +4,6 @@ import {Data} from './components/SliderData'
 
 function App() {
   return (
-    
       <ImageSlider slides={Data}/>
   
   );

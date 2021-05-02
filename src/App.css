@@ -10,7 +10,28 @@
   align-items: center;
 }
 .image{
-  width: 100px;
+  width: 1000px;
   height: 600px;
   border-radius: 10px;
+  background-size: cover;
+}
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
 }

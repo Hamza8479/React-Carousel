@@ -1,11 +1,12 @@
-
 import './App.css';
+import ImageSlider from './components/ImageSlider';
+import {Data} from './components/SliderData'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Finally</h1>
-    </div>
+    
+      <ImageSlider slides={Data}/>
+  
   );
 }
 

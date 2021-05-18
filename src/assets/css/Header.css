@@ -1,0 +1,27 @@
+.header{
+    height: 20vh;
+    width: 100%;
+    background-color: teal;
+  }
+  .navBar{
+    display: grid;
+    justify-content: center; 
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(16, 78, 78); 
+    margin-top: 70px;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .navBar ul li{
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 5px;
+  }
+  
+  .navBar ul :hover{
+    background-color: teal;
+  }

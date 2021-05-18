@@ -2,24 +2,26 @@
   padding: 0;
   margin: 0;
 }
+
 .imgSlider{
   position: relative;
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  top: 30px;
+  /* align-items: center;  */
 }
 .image{
   width: 1000px;
   height: 600px;
-  border-radius: 10px;
+  border-radius: 10px; 
   background-size: cover;
 }
 .right-arrow{
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 32px;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   z-index: 10;
   cursor: pointer;
@@ -27,9 +29,9 @@
 }
 .left-arrow{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 32px;
-  font-size: 3rem;
+  font-size: 2rem;
   color: black;
   z-index: 10;
   cursor: pointer;
